@@ -7,4 +7,21 @@
  --grayLighter: #eee;
  --white: #fff;
  --red: #c83025;
+ --redDark: #b22b21;
+ --yellow: #ffca27;
+ --green: #46a54e;
+ --greenDark: #3e9346;
+ --orange: #f89406;
+ --orangeDark: #df8505;
+ --blue: #0099e6;
+ --blueDark: #0088cd;
+
+ --backgroundColor: --white;
+ --textColor: --grayDark;
+
+ --linkColor: --blue;
+
+ --fontSans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ --fontMono: Menlo, Monaco, Consolas, "Courier New", monospace;
+
 }

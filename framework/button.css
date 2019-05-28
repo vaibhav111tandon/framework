@@ -1,0 +1,66 @@
+@import './variables.css';
+
+.btn{
+    background-color: var(--grayLighter);
+    color: var(--textColor);
+    padding: 1.2%;
+    font-family: var(--fontSans);
+    border: 0px transparent;
+    font-size: 85%;
+}
+
+.btn-primary, .btn-success, .btn-danger, .btn-warning, .btn-secondary, .btn-inverse{
+    color: var(--grayLighter);
+}
+
+.btn-primary{
+    background-color: var(--blue);
+}
+
+.btn-danger{
+    background-color: var(--red);
+}
+
+.btn-success{
+    background-color: var(--green);
+}
+
+.btn-warning{
+    background-color: var(--orange);
+}
+
+.btn-secondary{
+    background-color: var(--grayLight);
+}
+
+.btn-inverse{
+    background-color: var(--grayDarker);
+}
+
+.btn-primary:hover, .btn-primary:focus{
+    background-color: var(--blueDark);
+}
+
+.btn-danger:hover, .btn-danger:focus{
+    background-color: var(--redDark);
+}
+
+.btn-success:hover, .btn-success:focus{
+    background-color: var(--greenDark);
+}
+
+.btn-warning:hover, .btn-warning:focus{
+    background-color: var(--orangeDark);
+}
+
+.btn-secondary:hover, .btn-secondary:focus{
+    background-color: var(--gray);
+}
+
+.btn-inverse:hover, .btn-inverse:focus{
+    background-color: var(--grayDark);
+}
+
+.btn-rounded{
+    border-radius: 7px;
+}
