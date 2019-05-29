@@ -90,3 +90,13 @@
 .btn-rounded{
     border-radius: 7px;
 }
+
+.container{
+    max-width: 95%;
+    height: auto;
+}
+
+.fluid-container{
+    max-width: 100%;
+    height: auto;
+}
