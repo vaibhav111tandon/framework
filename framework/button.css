@@ -4,8 +4,8 @@
     background-color: var(--grayLighter);
     color: var(--textColor);
     padding: 1.2%;
-    font-family: var(--fontSans);
-    border: 0px transparent;
+    font-family: var(--fontQuick);
+    border: 3px transparent;
     font-size: 85%;
 }
 

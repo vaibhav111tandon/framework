@@ -1,3 +1,4 @@
+@import './variables.css';
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
@@ -10,7 +11,16 @@ html {
 a:hover, a:active {
   outline: 0;
 }
-
+p,h1,h2,h3,h4,h5,h6,dd,dt,figure,figcaption,ul,ol,dl,li,table,caption,sub,sup{
+  font-family: var(--fontQuick);
+  color: var(--grayDark);
+}
+h1{font-size: 2em;}
+h2{font-size: 1.75em;}
+h3{font-size: 1.5em;}
+h4{font-size: 1.25em;}
+h5{font-size: 1.0em;}
+h6{font-size: 0.75em;}
 sub, sup {
   position: relative;
   font-size: 75%;

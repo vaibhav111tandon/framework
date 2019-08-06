@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 :root {
  --black: #000;
  --grayDarker: #222;
@@ -23,7 +24,7 @@
 
  --fontSans: "Helvetica Neue", Helvetica, Arial, sans-serif;
  --fontMono: Menlo, Monaco, Consolas, "Courier New", monospace;
-
+ --fontQuick: "QuickSand", sans-serif;
 }
 
 .btn{
@@ -31,7 +32,7 @@
     color: var(--textColor);
     padding: 1.2%;
     font-family: var(--fontSans);
-    border: 0px transparent;
+    border: 3px transparent;
     font-size: 85%;
 }
 
